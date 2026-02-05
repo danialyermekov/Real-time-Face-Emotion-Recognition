@@ -15,11 +15,11 @@ A Streamlit web application for detecting and classifying facial emotions using 
 
 The model can recognize the following 5 emotions:
 
-- 😠 **Angry**
-- 😨 **Fear**
-- 😊 **Happy**
-- 😢 **Sad**
-- 😮 **Surprise**
+- **Angry**
+- **Fear**
+- **Happy**
+- **Sad**
+- **Surprise**
 
 ## Installation
 
