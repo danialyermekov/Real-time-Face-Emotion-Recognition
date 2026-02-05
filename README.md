@@ -1,16 +1,15 @@
-# Face Emotion Recognition App 🎭
+# Face Emotion Recognition App 
 
 A Streamlit web application for detecting and classifying facial emotions using a trained CNN model. The app supports both image upload and real-time camera input with face detection and emotion classification.
 
 ## Features
 
-- 📸 **Image Upload**: Upload photos to detect emotions from faces
-- 📷 **Camera Input**: Use your webcam to capture photos and analyze emotions in real-time
-- � **WebRTC Streaming**: Real-time video emotion detection
-- �🎯 **Multi-Face Detection**: Detects and analyzes multiple faces in a single image
-- 📊 **Confidence Scores**: Shows probability distribution for all emotion classes
-- 🎨 **Visual Feedback**: Annotated images with bounding boxes and emotion labels
-- 🔧 **Flexible Model Loading**: Specify custom model path via command-line argument
+- **Image Upload**: Upload photos to detect emotions from faces
+- **Camera Input**: Use your webcam to capture photos and analyze emotions in real-time
+- **WebRTC Streaming**: Real-time video emotion detection
+- **Multi-Face Detection**: Detects and analyzes multiple faces in a single image
+- **Confidence Scores**: Shows probability distribution for all emotion classes
+- **Visual Feedback**: Annotated images with bounding boxes and emotion labels
 
 ## Detected Emotions
 
@@ -34,8 +33,7 @@ The model can recognize the following 5 emotions:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/HolySxn/emotion-detector.git
-   cd emotion-detector
+   https://github.com/danialyermekov/Real-time-Face-Emotion-Recognition.git
    ```
 
 2. **Create and activate virtual environment**
@@ -58,7 +56,7 @@ The model can recognize the following 5 emotions:
    Make sure `emotion_cnn.pth` is in the project root directory. If you don't have it:
 
    - Train the model using `final.ipynb` notebook
-   - Or download pre-trained weights (if available)
+   - Or download pre-trained weights (https://drive.google.com/file/d/1Ezdh74elYTvQck3AxjsJPFKYYy0-blLp/view?usp=sharing)
 
 ## Usage
 
@@ -221,10 +219,8 @@ If real-time video streaming doesn't work:
 ├── emotion_cnn.pth             # Trained model weights (not in repo)
 ├── final.ipynb                 # Training notebook
 ├── requirements.txt            # Python dependencies
-├── requirements_simple.txt     # Minimal dependencies (optional)
 ├── README.md                   # This file
 ├── MODEL.md                    # Model description
-├── .gitignore                  # Git ignore rules
 └── .venv/                      # Virtual environment (not in repo)
 ```
 
